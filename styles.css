@@ -870,7 +870,10 @@ footer .copyright {
 }
 
 /* Cart Page */
-
+#cart {
+    /* Opcional para slider */
+    overflow-x: auto;
+}
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -883,7 +886,7 @@ footer .copyright {
 }
 
 #cart table td:nth-child(1) {
-    width: 100px;
+    width: 80px;
     text-align: center;
 }
 
@@ -893,14 +896,14 @@ footer .copyright {
 }
 
 #cart table td:nth-child(3) {
-    width: 100px;
+    width: 250px;
     text-align: center;
 }
 
 #cart table td:nth-child(4),
 #cart table td:nth-child(5),
 #cart table td:nth-child(6) {
-    width: 150x;
+    width: 150px;
     text-align: center;
 }
 
@@ -1253,6 +1256,20 @@ footer .copyright {
     #form-details form {
         width: 100%;
         margin-bottom: 30px;
+    }
+
+    /* Cart Page */
+    #cart-add{
+        flex-direction: column;
+    }
+
+    #coupon{
+        width: 100%;
+    }
+
+    #subtotal{
+        width: 100%;
+        padding: 20px;
     }
 
 }
